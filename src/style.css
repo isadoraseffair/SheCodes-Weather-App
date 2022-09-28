@@ -21,13 +21,18 @@ h1 {
   margin-bottom: 20px;
 }
 .weather-temperature img {
-  margin-right: 15px;
+  margin-right: 5px;
 }
 .weather-temp strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+}
+.weather-temperature .units {
+  font-size: 16px;
+  position: relative;
+  top: -34px;
 }
 ul {
   margin: 0;
