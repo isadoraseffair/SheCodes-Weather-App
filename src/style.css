@@ -44,6 +44,8 @@ li {
   font-size: 16px;
   line-height: 20px;
   font-weight: normal;
+}
+li:first-letter {
   text-transform: capitalize;
 }
 .bottomInfo {
