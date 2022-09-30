@@ -26,7 +26,7 @@
                      placeholder="Type a city"
                      class="form-control"
                      id="city-input"
-                     autocomplete="off"/>
+                     autocomplete="off=-pl"/>
             </div>
             <div class="col-2">
               <input type="submit"
@@ -52,7 +52,9 @@
               id="icon"
               />
               <div class="weather-temp">
-                <strong id="temperature"></strong><span class="units">ºC | <a href="#">ºF</a>
+                <strong id="temperature"></strong><span class="units">
+                  <a href="#" id="celcius-link" class="active">ºC </a>| 
+                  <a href="#" id="fahrenheit-link">ºF</a>
                    </span>
              </div>
           </div>

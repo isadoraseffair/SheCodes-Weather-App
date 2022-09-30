@@ -29,6 +29,13 @@ h1 {
   line-height: 1;
   font-weight: 400;
 }
+.weather-temp .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temp .active :hover {
+  text-decoration: none;
+}
 .weather-temperature .units {
   font-size: 16px;
   position: relative;
@@ -40,6 +47,9 @@ h1 {
     rgb(167, 220, 225) 11.2%,
     rgb(217, 239, 242) 88.9%
   );
+}
+a {
+  text-decoration: none;
 }
 ul {
   margin: 0;
