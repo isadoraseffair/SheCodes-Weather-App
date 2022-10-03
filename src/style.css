@@ -47,7 +47,7 @@ h1 {
   top: -34px;
   color: white;
 }
-.btn {
+#btnProperty {
   background-color: rgb(0, 37, 84);
   color: white;
   border: none;
