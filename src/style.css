@@ -68,3 +68,18 @@ li:first-letter {
 .bottomInfo {
   font-size: 13px;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: #70757a;
+}
+.weather-forecast-temp {
+  font-size: 13px;
+  color: #70757a;
+}
+.weather-forecast-temp-min {
+  opacity: 0.5;
+}
