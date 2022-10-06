@@ -84,8 +84,13 @@ function displayTemperature(response) {
   let iconElement = document.querySelector("#icon");
 
   celciusTemperature = response.data.main.temp;
+  let celsiusReponse = response.data.main.temp;
 
-  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  if (fahrenheitLink.classList.contains("active")) {
+    temperatureElement.innerHTML = Math.round((celsiusReponse * 9) / 5 + 32);
+  } else {
+    temperatureElement.innerHTML = Math.round(celsiusReponse);
+  }
   cityElement.innerHTML = response.data.name;
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
